@@ -18,6 +18,7 @@ sudo apt install -y gawk \
      cpio \
      python3 \
      python3-pip \
+     python3-venv \
      python3-pexpect \
      xz-utils \
      debianutils \
@@ -31,7 +32,10 @@ sudo apt install -y gawk \
      zstd \
      liblz4-tool \
      file \
-     locales
+     locales \
+     ripgrep \
+     fish \
+     htop
 
 # Install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
